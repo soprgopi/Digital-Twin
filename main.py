@@ -152,4 +152,7 @@ plt.ylabel("Temperature (K)")
 plt.title("System Behavior Under Fault")
 plt.legend()
 plt.grid()
+
+plt.savefig("digital_twin.png")
+plt.savefig("fault_detection.png")
 plt.show()
